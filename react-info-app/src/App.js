@@ -1,5 +1,13 @@
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+
 const App = () => {
-  return <h1>hgrfg</h1>;
+  return (
+    <div>
+      <Navbar />
+      <Main />
+    </div>
+  );
 };
 
 export default App;
